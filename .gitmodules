@@ -1,0 +1,3 @@
+[submodule "src/OpenLicenseCommunication"]
+	path = src/OpenLicenseCommunication
+	url = git@github.com:xnavrat4/OpenLicenseCommunication.git

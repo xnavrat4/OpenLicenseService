@@ -1,0 +1,13 @@
+[Unit]
+Description = OLSService
+
+[Service]
+Type = simple
+Restart = always
+RestartSec = 1
+StartLimitInterval = 0
+ExecStart = /opt/OL/OpenLicenseService &
+
+[Install]
+WantedBy = default.target
+
